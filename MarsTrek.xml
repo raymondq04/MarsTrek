@@ -1,5 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="controls_repeat" id="87" inline="true" x="-778" y="31">
+    <value name="TIMES">
+      <block type="math_number" id="94">
+        <field name="NUM">100</field>
+      </block>
+    </value>
     <statement name="DO">
       <block type="movement_setmotors" id="10" inline="true">
         <value name="BOTHMOVLEFT">
